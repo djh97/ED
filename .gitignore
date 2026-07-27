@@ -1,0 +1,49 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*secret*
+*token*
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Generated outputs and temporary files
+evaluation_outputs/
+.tmp/
+tmp/
+*.log
+*.jsonl
+
+# Manuscript, charts, figures, and local editor artifacts
+Manuscript/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bkp
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+*.pdf
+*.drawio
+*.mmd
+.$*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
